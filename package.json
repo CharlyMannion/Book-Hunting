@@ -9,13 +9,19 @@
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-scripts": "1.1.4",
-    "react-test-renderer": "^16.4.1"
+    "react-styleguidist": "^7.0.17",
+    "react-test-renderer": "^16.4.1",
+    "source-map-explorer": "^1.5.0"
   },
   "scripts": {
+    "styleguide": "styleguidist server",
+    "styleguide:build": "styleguidist build",
+    "analyze": "source-map-explorer build/static/js/main.*",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
-    "setupTestFrameworkScriptFile": "<rootDir>/src/setupTests.js"
+    "setupTestFrameworkScriptFile": "<rootDir>/src/setupTests.js",
+    "test:debug": "react-scripts --inspect-brk test --runInBand --env=jsdom"
   }
 }
