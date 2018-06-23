@@ -11,7 +11,10 @@
     "react-scripts": "1.1.4",
     "react-styleguidist": "^7.0.17",
     "react-test-renderer": "^16.4.1",
-    "source-map-explorer": "^1.5.0"
+    "source-map-explorer": "^1.5.0",
+    "chromedriver": "^2.38.3",
+    "nightwatch": "^0.9.21",
+    "selenium-server": "^3.12.0"
   },
   "scripts": {
     "styleguide": "styleguidist server",
@@ -22,6 +25,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "setupTestFrameworkScriptFile": "<rootDir>/src/setupTests.js",
-    "test:debug": "react-scripts --inspect-brk test --runInBand --env=jsdom"
+    "test:debug": "react-scripts --inspect-brk test --runInBand --env=jsdom",
+    "feature-tests": "nightwatch"
   }
 }
