@@ -1,7 +1,7 @@
 # Book Hunting
 
 ## Overview
-An indepndent project, worked on during my time at Makers Academy.
+An independent project, worked on during my time at Makers Academy.
 
 This is an app to help a user find a jolly good book. 
 
